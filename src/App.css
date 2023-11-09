@@ -1,0 +1,65 @@
+
+body {
+  background-color: hsl(99, 76%, 53%); 
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #8B0000; 
+}
+
+.comment-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #D2691E; 
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.comment-list {
+  list-style: none;
+  padding: 0;
+  width: 50%;
+}
+
+.comment-list li {
+  border: 1px solid #8B4513; 
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #8B4513; 
+  color: #fff; 
+}
+
+.add-comment-form {
+  margin-top: 20px;
+}
+
+.add-comment-form textarea {
+  width: 50%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #8B0000; 
+  margin-bottom: 10px;
+}
+
+.add-comment-form button {
+  padding: 8px 20px;
+  border: none;
+  background-color: #8B0000;
+  color: #fff; 
+  border-radius: 5px;
+  cursor: pointer;
+  gap: 10px;
+}
+
+.add-comment-form button:hover {
+  background-color: #800000; 
+}
